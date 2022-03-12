@@ -1,3 +1,4 @@
+// Navbar
 const bar = document.getElementById('bar')
 const nav = document.getElementById('navbar')
 const cl = document.getElementById('close')
@@ -13,3 +14,5 @@ if (cl) {
         nav.classList.remove('active')
     })
 }
+
+// Modal
