@@ -8,8 +8,8 @@
     <link rel="icon" href="./imgs/img/favicon.ico.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/reponsive.css">
+    <link rel="stylesheet" href="./reset/reset.css">
+    <link rel="stylesheet" href="./reponsive/reponsive.css">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
@@ -491,5 +491,12 @@
             progress.style.height = progressHeight + "%"
         }
     </script>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+        intent="WELCOME"
+        chat-title="ChatBot"
+        agent-id="eba74ddc-7fff-46cf-9044-e75d610e19ac"
+        language-code="en"
+    ></df-messenger>
 </body>
 </html>
